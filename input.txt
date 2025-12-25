@@ -1,0 +1,13 @@
+cin >> data;
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cout << "Hello Sahil Welcome !\n";
+    cout << "Enter the age : ";
+    cin >> age;
+
+    cout <<"your age is : " << age <<endl;
+}

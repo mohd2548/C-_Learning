@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // cout << "Hello Sahil" <<endl;
+    // cout <<"Hello World !" << "\n";
+    cout <<"Hello\n  World";
+    // cout <<"Hello BRother";
+
+    return 0;
+}
+
+
+========******** Variables ******=================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 25;
+    char grade = 'A';
+    float PI = 3.147;
+    bool isSafe = true;
+    bool isSaf = false;
+    double price = 99.99;
+    // cout << "age" <<endl; it'll prnt the var  "age"
+    cout << age <<endl; //output : 25 
+    cout << sizeof(age) << endl;
+    cout << grade << endl;
+    cout << PI << endl;
+    cout << isSafe << endl;
+    cout << isSaf << endl;
+    cout << price << endl;
+    return 0;   
+}

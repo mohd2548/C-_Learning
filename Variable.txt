@@ -1,0 +1,51 @@
+Variable   ::  Conatainer whcih stores the data 
+
+age = 25 
+grade = 'A'   single quote  for character 
+Name = "Sahil"  
+
+
+Here are the Primitive Data types 
+
+int data type take 4 bytes spaces in a memory 
+1 digit is bit 
+8 bits = 1 byte
+eg : 01010101  = 1 byte
+4 byte = 32 bits  spaces 
+
+we can check the siz  of bytes  
+by using ==>>  sizeof(age)
+
+
+
+
+
+Char data type 
+we store single character  
+takes the spaces in memory that is  of 1 byte
+
+
+
+
+Float data type 
+It also accupy the 4 bytes of space in memory 
+
+when we write float value always write f or F at the end of the value 
+because compiler understand it as double if we dont write 
+
+float PI = 3.147; acc to compilor " double"
+float PI = 3.147f;
+
+Boolean Data type 
+1byte  memory 
+val either true or False 
+
+when we will print the bool value always give the out 
+in the binary form like o and 1 
+1 for True value
+0 for False value
+
+
+Double  
+8 bytes memory
+here also we store the decimal values 

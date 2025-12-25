@@ -1,0 +1,23 @@
+cout << "Sahil";    use to print output It is also case sensitive language 
+main.cpp  main is name of  file   .cpp is extension of c++ 
+;  terminator   is eqavivalant to . in english 
+
+
+main fun    ===  start  in flowchart 
+int main(){"This is how we write the  main function} 
+it informs the compiler that execution  will start from here 
+
+# include <iostream>    
+preprocessor directive  
+statement  hai jo ham compilation se pahle apne compilor ko kuch bata rahe hain 
+ki is ioststream file me ye logic likha hua hai jo c++ ko malum ni hota hai y iostream batahai 
+isliye its always places at top 
+
+using namespace std;  ==== std:  standard namespace  in c++ 
+c++ me std naam ki namespace hai  jo ham use karte hain 
+ ham ise hata bhi skte hailekin har bar 
+ std::cout<<"sahil";  likhna hoga 
+
+return 0;
+
+
