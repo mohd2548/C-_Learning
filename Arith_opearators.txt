@@ -1,0 +1,24 @@
+******************* Arithmatic Operators*******************
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    // int a = 10, b = 5;
+    // cout << (a+b) << endl;
+    // cout <<"sum :" << (a+b) << endl;
+    // cout <<"difference :" << (a-b) << endl;
+    // cout <<"product :" << (a*b) << endl;
+    // cout <<"Division :" << (a/b) << endl;
+    // cout <<"modulo :" << (a%b) << endl;
+
+    int ans = (5 /(double)2);  
+    // output 2  here right side is double which will out: 2.5 but its gonna store in 
+    // an integer  which takes less space then double so it will remove the .5 from 2.5  and ans == 2
+
+    // cout << (5 / (double)2) << endl;
+    // output 2.5 here dividing int ko double k sath 
+    cout << ans << endl;
+    return 0;
+
+
