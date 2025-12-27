@@ -1,10 +1,10 @@
-*************Logical Operators***********
-OR  || ==> use it when T || F  = T   //  T || T = T  and so on ..............
+// *************Logical Operators***********
+// OR  || ==> use it when T || F  = T   //  T || T = T  and so on ..............
 
-AND  &&   ampersand ==> USe it when all value are true then 
-T && T = T  and so on ..........
+// AND  &&   ampersand ==> USe it when all value are true then 
+// T && T = T  and so on ..........
 
-NOT  !    ===> If TRUE then will convert FALSE 
+// NOT  !    ===> If TRUE then will convert FALSE 
 
 
 #include <iostream>

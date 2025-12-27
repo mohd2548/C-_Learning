@@ -1,4 +1,4 @@
-******************* Arithmatic Operators*******************
+// ******************* Arithmatic Operators*******************
 
 #include <iostream>
 using namespace std;

@@ -1,5 +1,5 @@
-******************* Relational Operators*****************
-Always returns boolean value 
+// ******************* Relational Operators*****************
+// Always returns boolean value 
 
 #include <iostream>
 using namespace std;

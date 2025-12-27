@@ -1,4 +1,4 @@
-cin >> data;
+// cin >> data;
 
 #include <iostream>
 using namespace std;
