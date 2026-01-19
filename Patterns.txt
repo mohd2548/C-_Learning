@@ -1,0 +1,42 @@
+int main(){
+    int n = 4;
+    int num = 1;
+    for (int i = 1; i<= n ; i ++){
+        for (int j = 1; j<=n; j++){  
+            cout << num << " ";         // num print the number in sequence by incrementing 
+            num ++;
+        }
+    cout << endl;
+    }
+    return 0;
+}
+
+
+
+
+====================================================================================================================
+
+for (int j = 1; j<=n; j++){  
+            cout << num << " ";         // num print the number in sequence by incrementing 
+            num ++;
+        }
+Step-by-Step Role
+- Inner loop (for (int j = 1; j <= n; j++))
+- This loop runs n times (here, 4 times).
+- Each run corresponds to one column in the current row.
+- So if n = 4, it ensures 4 numbers are printed per row.
+
+- cout << num << " ";
+- Prints the current value of num followed by a space.
+- num is a counter that keeps track of the sequence of numbers across the entire grid.
+- Example: first row prints 1 2 3 4, second row prints 5 6 7 8, etc.
+
+- num++;
+- Increments num by 1 after each print.
+- This ensures the next column prints the next number in sequence.
+- Without this line, every column in the row would print the same number.
+
+Why this matters
+- The outer loop controls rows.
+- The inner loop (this part) controls columns.
+- num ensures that instead of repeating row/column indices, you get a continuous sequence of numbers across the entire matrix.

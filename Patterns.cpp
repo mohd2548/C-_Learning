@@ -19,6 +19,8 @@ using namespace std;
 //     return 0;
 // }
 
+
+
 // FOr characters
 
 /*
@@ -58,3 +60,37 @@ A B C D
 //     }
 //     return 0;
 // }
+
+
+// A B C D 
+// E F G H 
+// I J K L 
+// M N O P 
+
+// int main(){
+//     int n =4; 
+//     char ch  = 'A';
+//     for (int i = 1; i<=n; i++){   // print no rows  i = 1 to 4  also {int i=0;i<=n-1;i++} or{ i=0;i<n;i++}
+//         for (int j =1 ; j<=4; j++){ // print no columns j=1 to 4
+//             cout << ch << " ";
+//             ch = ch + 1;  // ASCII A= 65 B=66 C=67 D=68  
+//             //  ch = A + 1  ==> B  A= 65 + 1 = 66 ===> B
+//         }
+//     cout << endl;
+//     }
+//     return 0;
+// }
+
+
+int main(){
+    int n = 4;
+    int num = 1;
+    for (int i = 1; i<= n ; i ++){
+        for (int j = 1; j<=n; j++){  
+            cout << num << " ";         // num print the number in sequence by incrementing 
+            num ++;
+        }
+    cout << endl;
+    }
+    return 0;
+}
