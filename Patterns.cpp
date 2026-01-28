@@ -111,11 +111,84 @@ A B C D
 // }
 
 // Triangle pattern +
-int main(){
+/* int main(){
     int n = 6;
-    for (int i = 1; i <= n; i++){
-        for (int j = 1; j<= i; j++){
-            cout << "*";
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i+1;j++){
+            cout << "* ";
+        }
+    cout << endl;
+    }
+    return 0;
+}
+*/
+
+// for number
+/*
+1
+22
+333
+4444
+*/
+
+// int main(){
+//     int n = 4;
+//     for(int i=0; i<n; i++){
+//         for(int j=0;j<i+1;j++){
+//             cout << (i+1) ;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// A
+// BB
+// CCC
+// DDDD
+
+// int main(){
+//     int n = 4;
+//     char ch = 'A';
+//     for(int i=0;i<n;i++){
+//         for(int j=0;j<i+1;j++){
+//         cout << ch << " ";
+//         }
+//         cout << endl;
+//         ch++;   // Increament AFTER finishing one row [I got stuck here]
+//     }
+//     return 0;
+// }
+
+// ======================================================
+
+// 1
+// 12
+// 123
+// 1234
+
+// int main(){
+//     int n=4;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<i+1;j++){
+//             cout << j;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+
+// Reverse triangle pattern 
+// 1
+// 21
+// 321
+// 4321
+int main(){
+    int n=4;
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j>0;j--){
+            cout << j << " ";
         }
         cout << endl;
     }
