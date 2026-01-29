@@ -184,11 +184,70 @@ A B C D
 // 21
 // 321
 // 4321
+
+// int main(){
+//     int n=4;
+//     for(int i=0;i<n;i++){
+//         for(int j=i+1;j>0;j--){
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// Floyd's Triangle Pattern 
+// 1
+// 23
+// 456
+// 78910
+
+// int main(){
+//     int n = 4;
+//     int num = 1;
+//     for (int i = 1;i<=n;i++){
+//            for(int j=i+1;j>1;j--){ // Backward inner loop k sath bhi is pattern ko print kara sakte hain 
+//         //    for(int j=1;j<i+1;j++){  // forward inner loop is more easy to read 
+//             cout << num << " ";
+//             num ++;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// Floyd's Char pattern
+// A
+// B C
+// D E F
+// G H I J
+
+// int main(){
+//     int n = 4;
+//     char ch ='A';
+//     for(int i=0;i<n;i++){
+//         for(int j=0; j<i+1;j++){
+//             cout << ch;
+//             ch++;
+//         }
+//         cout << endl;
+//     }
+//     return 0;
+// }
+
+// Reveresed CHAR Triangle pattern 
+// A
+// B A
+// C B A
+// D C B A
+
 int main(){
-    int n=4;
+    int n = 4;
     for(int i=0;i<n;i++){
+        char ch = 'A' + i;
         for(int j=i+1;j>0;j--){
-            cout << j << " ";
+            cout << ch << " ";
+            ch--;
         }
         cout << endl;
     }
